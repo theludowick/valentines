@@ -38,6 +38,13 @@ body {
     margin-bottom: 30px;
 }
 
+.bear-image {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
 .bear-face {
     display: inline-block;
     position: relative;
@@ -256,6 +263,14 @@ h1 {
 
 .celebration-bear {
     margin-top: 30px;
+}
+
+.celebration-bear .bear-image {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    animation: bounce 1s ease-in-out infinite;
 }
 
 /* Responsive Design */
